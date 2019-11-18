@@ -1,0 +1,15 @@
+{
+  "name": "saas",
+  "version": "0.1.0",
+  "description": "Survey as a service",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend/bin/www && node server.js\" \"cd frontend && npm start\""
+  },
+  "keywords": [],
+  "author": "Narongsak Mala",
+  "license": "MIT License",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
