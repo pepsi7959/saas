@@ -1,7 +1,10 @@
 {
-  "name": "saas-backend",
+  "name": "@pepsi7959/saas-backend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "narongsak mala <narongsak.mala@gmail.com>",
+  "repository": "git@github.com:pepsi7959/saas.git",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "base64url": "^3.0.1",
@@ -29,5 +32,6 @@
   "proxy": "http://localhost:3001",
   "devDependencies": {
     "jest": "^24.9.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
